@@ -1,3 +1,7 @@
 #pragma once
+#include "mainPage.h"
 
-void app();
+class App {
+public:
+	void display();
+};
