@@ -1,5 +1,9 @@
 #include "../include/mainPage.h"
 
-void MainPage::mainMenuText() {
+void MainPage::display() {
+
+}
+
+void MainPage::actionHandler(PageHandler& pages) {
 
 }

@@ -1,5 +1,5 @@
 #include "../include/app.h"
 
 int main() {
-	App::display();
+	App App;
 }

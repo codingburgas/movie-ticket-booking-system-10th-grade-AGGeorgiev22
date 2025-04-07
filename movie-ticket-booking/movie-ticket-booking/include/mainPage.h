@@ -1,6 +1,9 @@
 #pragma once
+#include <iostream>
+#include "pageHandler.h"
 
 class MainPage {
 public:
-	void mainMenuText();
+	void display();
+	void actionHandler(PageHandler& pages);
 };
