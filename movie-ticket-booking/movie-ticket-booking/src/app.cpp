@@ -1,5 +1,20 @@
 #include "../include/app.h"
 
-void App::display() {
+App::App() {
+	while (running) {
+		pageHandler();
+	}
+}
 
+
+void App::pageHandler() {
+	if (pages.menuPageShouldDisplay) {
+		mainPage.display();
+		mainPage.actionHandler(pages);
+		return;
+	}
+	if (pages.exitApp) {
+		running = false;
+		return;
+	}
 }
