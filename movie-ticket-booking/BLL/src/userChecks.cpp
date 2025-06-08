@@ -1,4 +1,4 @@
-#include "../include/register.h"
+#include "../include/userChecks.h"
 
 bool checkPassword(std::string password)
 {

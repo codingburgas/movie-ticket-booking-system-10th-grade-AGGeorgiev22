@@ -1,6 +1,5 @@
 #pragma once
-#include <iostream>
-#include <string>
+#include "pch.h"
 
 bool checkPassword(std::string password);
 
