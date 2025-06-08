@@ -4,4 +4,8 @@ public:
     PageHandler();
     bool exitApp;
     bool menuPageShouldDisplay;
+	bool viewCinemasPageShouldDisplay;
+    bool viewMoviesPageShouldDisplay;
+    bool bookTicketsPageShouldDisplay;
+    bool addNewCinemaPageShouldDisplay;
 };
