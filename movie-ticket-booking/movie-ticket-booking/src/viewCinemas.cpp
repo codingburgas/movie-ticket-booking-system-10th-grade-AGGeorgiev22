@@ -2,7 +2,6 @@
 
 void ViewCinemas::display() {
 	system("cls");
-	ordered_json cinemaData = fetchCinemasFromJSON();
 	displayCinemas(cinemaData);
 }
 

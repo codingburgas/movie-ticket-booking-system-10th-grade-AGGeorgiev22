@@ -1,13 +1,16 @@
 #include "../include/mainPage.h"
 
 void MainPage::display() {
-	std::cout << "Welcome to CineMax!" << std::endl;
-	std::cout << "Please select an option:" << std::endl;
-	std::cout << "1. View Cinemas" << std::endl;
-	std::cout << "2. View Movies" << std::endl;
-	std::cout << "3. Book Tickets" << std::endl;
-	std::cout << "4. Add New Cinema" << std::endl;
-	std::cout << "5. Exit" << std::endl << std::endl;
+	std::cout << "+==============================+\n";
+	std::cout << "|      Welcome to CineMax!     |\n";
+	std::cout << "+==============================+\n";
+	std::cout << "|    Please select an option:  |\n";
+	std::cout << "+------------------------------+\n";
+	std::cout << "1. View Cinemas\n";
+	std::cout << "2. View Movies\n";
+	std::cout << "3. Book Tickets\n";
+	std::cout << "4. Add New Cinema\n";
+	std::cout << "5. Exit\n\n";
 	std::cout << "Enter your choice: ";
 }
 

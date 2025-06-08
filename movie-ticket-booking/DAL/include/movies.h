@@ -6,3 +6,7 @@
 int getRandomMovieId();
 
 std::vector<int> assignMoviesToHalls(int numHalls);
+
+ordered_json fetchMoviesFromJson();
+
+void displayMovies(const ordered_json& movieData);

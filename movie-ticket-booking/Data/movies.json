@@ -4,7 +4,7 @@
     "language": "English",
     "genre": "Sci-Fi",
     "releaseDate": "2024-10-01",
-    "ticketPrice": "12.00",
+    "ticketPrice": 12.00,
     "showtimes": ["14:00", "17:30", "20:00"]
   },
   "2": {
@@ -12,7 +12,7 @@
     "language": "Bulgarian",
     "genre": "Drama",
     "releaseDate": "2023-11-15",
-    "ticketPrice": "8.50",
+    "ticketPrice": 8.50,
     "showtimes": ["13:00", "15:45"]
   },
   "3": {
@@ -20,7 +20,7 @@
     "language": "Japanese",
     "genre": "Thriller",
     "releaseDate": "2025-02-10",
-    "ticketPrice": "10.00",
+    "ticketPrice": 10.00,
     "showtimes": ["18:00", "21:15"]
   },
   "4": {
@@ -28,7 +28,7 @@
     "language": "English",
     "genre": "Action",
     "releaseDate": "2024-06-20",
-    "ticketPrice": "11.50",
+    "ticketPrice": 11.50,
     "showtimes": ["12:30", "16:00", "19:30"]
   },
   "5": {
@@ -36,7 +36,7 @@
     "language": "French",
     "genre": "Romance",
     "releaseDate": "2023-07-05",
-    "ticketPrice": "9.00",
+    "ticketPrice": 9.00,
     "showtimes": ["10:30", "14:00"]
   },
   "6": {
@@ -44,7 +44,7 @@
     "language": "English",
     "genre": "Sci-Fi",
     "releaseDate": "2024-03-03",
-    "ticketPrice": "13.00",
+    "ticketPrice": 13.00,
     "showtimes": ["15:00", "18:15", "21:00"]
   },
   "7": {
@@ -52,7 +52,7 @@
     "language": "Bulgarian",
     "genre": "Mystery",
     "releaseDate": "2023-09-12",
-    "ticketPrice": "8.00",
+    "ticketPrice": 8.00,
     "showtimes": ["11:45", "14:30"]
   },
   "8": {
@@ -60,7 +60,7 @@
     "language": "Chinese",
     "genre": "Fantasy",
     "releaseDate": "2025-01-22",
-    "ticketPrice": "10.50",
+    "ticketPrice": 10.50,
     "showtimes": ["12:00", "15:00", "18:30"]
   },
   "9": {
@@ -68,7 +68,7 @@
     "language": "English",
     "genre": "Horror",
     "releaseDate": "2024-10-31",
-    "ticketPrice": "11.00",
+    "ticketPrice": 11.00,
     "showtimes": ["19:00", "21:30"]
   },
   "10": {
@@ -76,7 +76,7 @@
     "language": "Italian",
     "genre": "Art/Drama",
     "releaseDate": "2024-05-01",
-    "ticketPrice": "8.75",
+    "ticketPrice": 8.75,
     "showtimes": ["13:15", "16:30"]
   },
   "11": {
@@ -84,7 +84,7 @@
     "language": "English",
     "genre": "Action",
     "releaseDate": "2023-12-11",
-    "ticketPrice": "10.00",
+    "ticketPrice": 10.00,
     "showtimes": ["14:45", "17:30", "20:15"]
   },
   "12": {
@@ -92,7 +92,7 @@
     "language": "English",
     "genre": "Adventure",
     "releaseDate": "2025-04-08",
-    "ticketPrice": "12.00",
+    "ticketPrice": 12.00,
     "showtimes": ["10:00", "13:30", "17:00"]
   },
   "13": {
@@ -100,7 +100,7 @@
     "language": "Russian",
     "genre": "Thriller",
     "releaseDate": "2023-06-19",
-    "ticketPrice": "9.25",
+    "ticketPrice": 9.25,
     "showtimes": ["12:45", "16:15"]
   },
   "14": {
@@ -108,7 +108,7 @@
     "language": "English",
     "genre": "Sci-Fi",
     "releaseDate": "2024-11-01",
-    "ticketPrice": "11.50",
+    "ticketPrice": 11.50,
     "showtimes": ["13:00", "17:30", "20:30"]
   },
   "15": {
@@ -116,7 +116,7 @@
     "language": "Bulgarian",
     "genre": "Drama",
     "releaseDate": "2023-08-30",
-    "ticketPrice": "7.50",
+    "ticketPrice": 7.50,
     "showtimes": ["10:00", "13:45"]
   },
   "16": {
@@ -124,7 +124,7 @@
     "language": "Spanish",
     "genre": "Romance",
     "releaseDate": "2024-02-14",
-    "ticketPrice": "9.75",
+    "ticketPrice": 9.75,
     "showtimes": ["14:30", "17:00"]
   },
   "17": {
@@ -132,7 +132,7 @@
     "language": "German",
     "genre": "War/History",
     "releaseDate": "2023-04-27",
-    "ticketPrice": "10.25",
+    "ticketPrice": 10.25,
     "showtimes": ["15:00", "19:00"]
   },
   "18": {
@@ -140,7 +140,7 @@
     "language": "English",
     "genre": "Sci-Fi",
     "releaseDate": "2025-01-10",
-    "ticketPrice": "13.50",
+    "ticketPrice": 13.50,
     "showtimes": ["13:30", "16:00", "18:45"]
   },
   "19": {
@@ -148,7 +148,7 @@
     "language": "Polish",
     "genre": "Drama",
     "releaseDate": "2023-10-05",
-    "ticketPrice": "8.25",
+    "ticketPrice": 8.25,
     "showtimes": ["12:00", "15:30"]
   },
   "20": {
@@ -156,7 +156,7 @@
     "language": "English",
     "genre": "Cyberpunk/Action",
     "releaseDate": "2024-08-18",
-    "ticketPrice": "12.75",
+    "ticketPrice": 12.75,
     "showtimes": ["17:00", "20:00", "22:30"]
   }
 }
