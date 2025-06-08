@@ -6,7 +6,7 @@ void MainPage::display() {
 	std::cout << "1. View Cinemas" << std::endl;
 	std::cout << "2. View Movies" << std::endl;
 	std::cout << "3. Book Tickets" << std::endl;
-	std::cout << "4. Cancel Booking" << std::endl;
+	std::cout << "4. Add New Cinema" << std::endl;
 	std::cout << "5. Exit" << std::endl << std::endl;
 	std::cout << "Enter your choice: ";
 }
@@ -26,8 +26,9 @@ void MainPage::actionHandler(PageHandler& pages) {
 		pages.bookTicketsPageShouldDisplay = true;
 		key = 0;
 	} else if (key == 4) {
+		pages.menuPageShouldDisplay = false;
+		pages.addNewCinemaPageShouldDisplay = true;
 		key = 0;
-		return;
 	} else if (key == 5) {
 		std::cout << "Thank you for using CineMax!" << std::endl;
 		exit(0);

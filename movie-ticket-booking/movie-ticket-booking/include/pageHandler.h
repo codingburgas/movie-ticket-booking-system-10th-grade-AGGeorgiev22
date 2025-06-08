@@ -7,4 +7,5 @@ public:
 	bool viewCinemasPageShouldDisplay;
     bool viewMoviesPageShouldDisplay;
     bool bookTicketsPageShouldDisplay;
+    bool addNewCinemaPageShouldDisplay;
 };

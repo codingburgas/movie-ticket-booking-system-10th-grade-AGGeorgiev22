@@ -18,6 +18,11 @@ void App::pageHandler() {
 		viewCinemas.actionHandler(pages);
 		return;
 	}
+	if (pages.addNewCinemaPageShouldDisplay) {
+		addNewCinema.display();
+		addNewCinema.actionHandler(pages);
+		return;
+	}
 	if (pages.exitApp) {
 		running = false;
 		return;
