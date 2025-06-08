@@ -1,8 +1,9 @@
 #pragma once
 #include <iostream>
 #include "pageHandler.h"
+#include "../../DAL/include/cinemas.h"
 
-class MainPage {
+class ViewCinemas {
 public:
 	void display();
 	void actionHandler(PageHandler& pages);

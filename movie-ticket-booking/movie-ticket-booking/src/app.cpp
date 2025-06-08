@@ -13,6 +13,11 @@ void App::pageHandler() {
 		mainPage.actionHandler(pages);
 		return;
 	}
+	if (pages.viewCinemasPageShouldDisplay) {
+		viewCinemas.display();
+		viewCinemas.actionHandler(pages);
+		return;
+	}
 	if (pages.exitApp) {
 		running = false;
 		return;

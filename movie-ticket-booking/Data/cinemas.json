@@ -1,0 +1,27 @@
+{
+    "1": {
+        "cinemaName": "Galaxy Cinemas",
+        "cinemaCity": "Sofia",
+        "cinemaNumOfHalls": "5"
+    },
+    "2": {
+        "cinemaName": "Arena Mall",
+        "cinemaCity": "Plovdiv",
+        "cinemaNumOfHalls": "7"
+    },
+    "3": {
+        "cinemaName": "CineGrand Paradise",
+        "cinemaCity": "Varna",
+        "cinemaNumOfHalls": "6"
+    },
+    "4": {
+        "cinemaName": "Royal Cineplex",
+        "cinemaCity": "Burgas",
+        "cinemaNumOfHalls": "4"
+    },
+    "5": {
+        "cinemaName": "Forum Cinema",
+        "cinemaCity": "Ruse",
+        "cinemaNumOfHalls": "3"
+    }
+}
