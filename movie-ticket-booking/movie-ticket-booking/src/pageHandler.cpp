@@ -3,6 +3,8 @@
 PageHandler::PageHandler() {
     exitApp = false;
     menuPageShouldDisplay = true;
+    registerPageShouldDisplay = false;
+    loginPageShouldDisplay = false;
     viewCinemasPageShouldDisplay = false;
     viewMoviesPageShouldDisplay = false;
     bookTicketsPageShouldDisplay = false;

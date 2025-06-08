@@ -1,5 +1,7 @@
 #pragma once
 #include "mainPage.h"
+#include "registerPage.h"
+#include "loginPage.h"
 #include "viewCinemas.h"
 #include "viewMovies.h"
 #include "addNewCinema.h"
@@ -11,6 +13,8 @@ public:
 private:
 	void pageHandler();
 	MainPage mainPage;
+	Register reg;
+	Login log;
 	ViewCinemas viewCinemas;
 	ViewMovies viewMovies;
 	AddNewCinema addNewCinema;

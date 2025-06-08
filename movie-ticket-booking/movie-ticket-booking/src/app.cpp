@@ -13,6 +13,16 @@ void App::pageHandler() {
 		mainPage.actionHandler(pages);
 		return;
 	}
+	if (pages.registerPageShouldDisplay) {
+		reg.display();
+		reg.actionHandler(pages);
+		return;
+	}
+	if (pages.loginPageShouldDisplay) {
+		log.display();
+		log.actionHandler(pages);
+		return;
+	}
 	if (pages.viewCinemasPageShouldDisplay) {
 		viewCinemas.display();
 		viewCinemas.actionHandler(pages);

@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="src\credentials.cpp" />
     <ClCompile Include="src\userChecks.cpp" />
+    <ClCompile Include="src\userChoices.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\credentials.h" />
     <ClInclude Include="include\pch.h" />
     <ClInclude Include="include\userChecks.h" />
+    <ClInclude Include="include\userChoices.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

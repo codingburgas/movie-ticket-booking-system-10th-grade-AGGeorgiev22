@@ -21,6 +21,9 @@
     <ClCompile Include="src\credentials.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\userChoices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\credentials.h">
@@ -30,6 +33,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\userChecks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\userChoices.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

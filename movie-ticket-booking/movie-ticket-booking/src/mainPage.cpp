@@ -1,6 +1,7 @@
 #include "../include/mainPage.h"
 
 void MainPage::display() {
+	system("cls");
 	std::cout << "+==============================+\n";
 	std::cout << "|      Welcome to CineMax!     |\n";
 	std::cout << "+==============================+\n";
@@ -10,7 +11,8 @@ void MainPage::display() {
 	std::cout << "2. View Movies\n";
 	std::cout << "3. Book Tickets\n";
 	std::cout << "4. Add New Cinema\n";
-	std::cout << "5. Exit\n\n";
+	std::cout << "5. Register\n";
+	std::cout << "6. Exit\n\n";
 	std::cout << "Enter your choice: ";
 }
 
@@ -32,12 +34,15 @@ void MainPage::actionHandler(PageHandler& pages) {
 		pages.menuPageShouldDisplay = false;
 		pages.addNewCinemaPageShouldDisplay = true;
 		key = 0;
-	} else if (key == 5) {
+	}
+	else if (key == 5) {
+		pages.menuPageShouldDisplay = false;
+		pages.registerPageShouldDisplay = true;
+		key = 0;
+	} else if (key == 6) {
 		std::cout << "Thank you for using CineMax!" << std::endl;
 		exit(0);
 	}
-
-	system("cls");
 
 	if(key >= 6 || key <= 0){
 		system("CLS");

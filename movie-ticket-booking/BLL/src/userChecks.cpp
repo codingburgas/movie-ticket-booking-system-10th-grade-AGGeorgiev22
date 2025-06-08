@@ -28,10 +28,10 @@ bool checkPassword(std::string password)
         return false;
 }
 
-bool checkUsername(std::string& username) {
+bool checkName(std::string& name) {
     // Check if the username is non-empty and does not contain spaces
-    bool checkSize = !username.empty();
-    bool checkSpaces = (username.find(' ') == std::string::npos);
+    bool checkSize = !name.empty();
+    bool checkSpaces = (name.find(' ') == std::string::npos);
 
     return checkSize && checkSpaces;
 }
@@ -63,16 +63,17 @@ bool checkEmail(std::string& email) {
     return checkSize && checkSpaces && checkAt && checkBandA && checkDot;
 }
 
-bool checkValidity(std::string& username, std::string& email, std::string& password) {
+bool checkValidity(std::string& name, std::string& email, std::string& password) {
     // Check if all credentials are valid
     bool check = false;
-    if (checkPassword(password) && checkUsername(username) && checkEmail(email)) check = true;
+    if (checkPassword(password) && checkName(name) && checkEmail(email)) check = true;
     return check;
 }
 
-void hidePassword(std::string& password, char& ch) {
+void hidePassword(std::string& password) {
+    char ch;
     password.clear();  // Clear the existing password if any
-    while (ch != '\r') {  // Read characters until Enter is pressed
+    while ((ch = _getch()) != '\r') {  // Read characters until Enter is pressed
         if (ch == 8) {  // Backspace key
             if (!password.empty()) {
                 password.pop_back();
@@ -87,10 +88,10 @@ void hidePassword(std::string& password, char& ch) {
     std::cout << std::endl;  // Print a newline after the password
 }
 
-std::string createFileLine(std::string& username, std::string& email, std::string& password)
+std::string createFileLine(std::string& name, std::string& email, std::string& password)
 {
     // Input all credentials in the file
     std::string inputLine;
-    inputLine = username + " " + email + " " + password;
+    inputLine = name + " " + email + " " + password;
     return inputLine;
 }
