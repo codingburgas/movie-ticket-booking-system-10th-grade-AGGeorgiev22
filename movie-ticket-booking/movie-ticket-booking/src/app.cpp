@@ -13,6 +13,36 @@ void App::pageHandler() {
 		mainPage.actionHandler(pages);
 		return;
 	}
+	if (pages.registerPageShouldDisplay) {
+		reg.display();
+		reg.actionHandler(pages);
+		return;
+	}
+	if (pages.loginPageShouldDisplay) {
+		log.display();
+		log.actionHandler(pages);
+		return;
+	}
+	if (pages.viewCinemasPageShouldDisplay) {
+		viewCinemas.display();
+		viewCinemas.actionHandler(pages);
+		return;
+	}
+	if (pages.viewMoviesPageShouldDisplay) {
+		viewMovies.display();
+		viewMovies.actionHandler(pages);
+		return;
+	}
+	if (pages.selectCinemaPageShouldDisplay) {
+		selectCinema.display();
+		selectCinema.actionHandler(pages);
+		return;
+	}
+	if (pages.addNewCinemaPageShouldDisplay) {
+		addNewCinema.display();
+		addNewCinema.actionHandler(pages);
+		return;
+	}
 	if (pages.exitApp) {
 		running = false;
 		return;

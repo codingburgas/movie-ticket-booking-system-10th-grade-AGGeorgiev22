@@ -1,7 +1,7 @@
 #include "../include/users.h"
 
 
-void insertRecord(std::string username, std::string firstName, std::string lastName, std::string email, std::string password)
+void insertRecord(std::string firstName, std::string lastName, std::string email, std::string password)
 {
     std::ifstream inFile("../../movie-ticket-booking/Data/accounts.json");
     ordered_json data;
@@ -22,7 +22,6 @@ void insertRecord(std::string username, std::string firstName, std::string lastN
 
     std::string newKey = std::to_string(key);
     ordered_json newEntry = {
-        {"username", username},
         {"firstName", firstName},
         {"lastName", lastName},
         {"email", email},
@@ -42,7 +41,7 @@ void insertRecord(std::string username, std::string firstName, std::string lastN
 }
 
 
-bool loginUser(std::string username, std::string email, std::string password)
+bool loginUser(std::string email, std::string password)
 {
     std::ifstream inFile("../../movie-ticket-booking/Data/accounts.json");
     ordered_json data;
@@ -60,7 +59,7 @@ bool loginUser(std::string username, std::string email, std::string password)
     for (auto it = data.begin(); it != data.end(); ++it) {
         ordered_json user = it.value();
 
-        if (user.contains("email") && user["email"] == email && user.contains("username") && user["username"] == username) {
+        if (user.contains("email") && user["email"] == email) {
             if (user.contains("password") && user["password"] == password) {
                 credentials::firstName = user.value("firstName", "");
                 credentials::lastName = user.value("lastName", "");
@@ -78,7 +77,7 @@ bool loginUser(std::string username, std::string email, std::string password)
 }
 
 
-void editUserInfo(std::string username, std::string firstName, std::string lastName, std::string email, std::string password)
+void editUserInfo(std::string firstName, std::string lastName, std::string email, std::string password)
 {
     std::ifstream inFile("../../movie-ticket-booking/Data/accounts.json");
     ordered_json data;
@@ -99,12 +98,10 @@ void editUserInfo(std::string username, std::string firstName, std::string lastN
         auto key = it.key();
         auto& user = it.value();
 
-        if (user.contains("username") && user["username"] == username &&
-            user.contains("email") && user["email"] == email) {
+        if (user.contains("email") && user["email"] == email) {
 
             user["firstName"] = firstName;
             user["lastName"] = lastName;
-            user["username"] = username;
             user["email"] = email;
             user["password"] = password;
 

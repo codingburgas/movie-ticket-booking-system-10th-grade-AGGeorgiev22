@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\cinemas.cpp" />
+    <ClCompile Include="src\movies.cpp" />
     <ClCompile Include="src\users.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\cinemas.h" />
+    <ClInclude Include="include\movies.h" />
     <ClInclude Include="include\users.h" />
     <ClInclude Include="include\json.hpp" />
     <ClInclude Include="include\pch.h" />

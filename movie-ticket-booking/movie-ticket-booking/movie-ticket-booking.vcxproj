@@ -135,15 +135,27 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\addNewCinema.cpp" />
     <ClCompile Include="src\app.cpp" />
+    <ClCompile Include="src\loginPage.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\mainPage.cpp" />
     <ClCompile Include="src\pageHandler.cpp" />
+    <ClCompile Include="src\registerPage.cpp" />
+    <ClCompile Include="src\selectCinema.cpp" />
+    <ClCompile Include="src\viewCinemas.cpp" />
+    <ClCompile Include="src\viewMovies.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\addNewCinema.h" />
     <ClInclude Include="include\app.h" />
+    <ClInclude Include="include\loginPage.h" />
     <ClInclude Include="include\mainPage.h" />
     <ClInclude Include="include\pageHandler.h" />
+    <ClInclude Include="include\registerPage.h" />
+    <ClInclude Include="include\selectCinema.h" />
+    <ClInclude Include="include\viewCinemas.h" />
+    <ClInclude Include="include\viewMovies.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
