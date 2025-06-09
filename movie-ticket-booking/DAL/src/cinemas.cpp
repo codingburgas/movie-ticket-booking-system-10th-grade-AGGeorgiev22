@@ -92,9 +92,6 @@ void displayCinemas(ordered_json& cinemaData) {
         std::cout << "No cinemas available." << std::endl;
         return;
     }
-    std::cout << "----------------" << std::endl;
-    std::cout << "    CINEMAS:" << std::setw(88) << "" << "Enter 1 to go back." << std::endl;
-	std::cout << "----------------" << std::endl;
     for (auto& item : cinemaData.items()) {
         ordered_json cinema = item.value();
         std::cout << "Cinema ID: " << item.key() << ", " << std::endl;
@@ -102,6 +99,16 @@ void displayCinemas(ordered_json& cinemaData) {
         std::cout << "City: " << cinema["cinemaCity"] << ", " << std::endl;
         std::cout << "Number of Halls: " << cinema["cinemaNumOfHalls"] << ", " << std::endl;
         std::cout << "Seats per Hall: " << cinema["cinemaNumOfSeatsPerHall"] << ", " << std::endl << std::endl;
-		std::cout << "Halls:" << cinema["halls"] << std::endl;
+    }
+}
+
+void fetchLastCinemaID(std::string& lastCinemaID) {
+    ordered_json cinemaData = fetchCinemasFromJSON();
+    if (cinemaData.empty()) {
+        lastCinemaID = "";
+        return;
+    }
+    for (auto& item : cinemaData.items()) {
+		lastCinemaID = item.key();
     }
 }

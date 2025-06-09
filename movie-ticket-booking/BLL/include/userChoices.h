@@ -2,7 +2,8 @@
 #include "pch.h"
 
 namespace UserChoices {
-	extern std::string cinemaName;
-	extern std::string cinemaCity;
+	extern std::string cinemaID;
 	extern int cinemaHall;
+	extern int cinemaSeat;
+	extern int cinemaNumOfSeatsPerHall;
 }

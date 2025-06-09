@@ -2,6 +2,9 @@
 
 void ViewCinemas::display() {
 	system("cls");
+	std::cout << "----------------" << std::endl;
+	std::cout << "    CINEMAS:" << std::setw(88) << "" << "Enter 1 to go back." << std::endl;
+	std::cout << "----------------" << std::endl;
 	displayCinemas(cinemaData);
 }
 

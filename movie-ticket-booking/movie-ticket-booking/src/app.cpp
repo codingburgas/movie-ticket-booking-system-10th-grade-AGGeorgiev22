@@ -33,6 +33,11 @@ void App::pageHandler() {
 		viewMovies.actionHandler(pages);
 		return;
 	}
+	if (pages.selectCinemaPageShouldDisplay) {
+		selectCinema.display();
+		selectCinema.actionHandler(pages);
+		return;
+	}
 	if (pages.addNewCinemaPageShouldDisplay) {
 		addNewCinema.display();
 		addNewCinema.actionHandler(pages);

@@ -8,6 +8,7 @@ public:
     bool loginPageShouldDisplay;
 	bool viewCinemasPageShouldDisplay;
     bool viewMoviesPageShouldDisplay;
+	bool selectCinemaPageShouldDisplay;
     bool bookTicketsPageShouldDisplay;
     bool addNewCinemaPageShouldDisplay;
 };

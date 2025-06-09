@@ -4,6 +4,7 @@
 #include "loginPage.h"
 #include "viewCinemas.h"
 #include "viewMovies.h"
+#include "selectCinema.h"
 #include "addNewCinema.h"
 #include "pageHandler.h"
 
@@ -17,6 +18,7 @@ private:
 	Login log;
 	ViewCinemas viewCinemas;
 	ViewMovies viewMovies;
+	SelectCinema selectCinema;
 	AddNewCinema addNewCinema;
 	PageHandler pages;
 

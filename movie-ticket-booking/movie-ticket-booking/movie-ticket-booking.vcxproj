@@ -142,6 +142,7 @@
     <ClCompile Include="src\mainPage.cpp" />
     <ClCompile Include="src\pageHandler.cpp" />
     <ClCompile Include="src\registerPage.cpp" />
+    <ClCompile Include="src\selectCinema.cpp" />
     <ClCompile Include="src\viewCinemas.cpp" />
     <ClCompile Include="src\viewMovies.cpp" />
   </ItemGroup>
@@ -152,6 +153,7 @@
     <ClInclude Include="include\mainPage.h" />
     <ClInclude Include="include\pageHandler.h" />
     <ClInclude Include="include\registerPage.h" />
+    <ClInclude Include="include\selectCinema.h" />
     <ClInclude Include="include\viewCinemas.h" />
     <ClInclude Include="include\viewMovies.h" />
   </ItemGroup>

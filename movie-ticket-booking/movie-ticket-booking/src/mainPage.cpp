@@ -11,8 +11,9 @@ void MainPage::display() {
 	std::cout << "2. View Movies\n";
 	std::cout << "3. Book Tickets\n";
 	std::cout << "4. Add New Cinema\n";
-	std::cout << "5. Register\n";
-	std::cout << "6. Exit\n\n";
+	std::cout << "5. Start Selection Process\n";
+	std::cout << "6. Register\n";
+	std::cout << "7. Exit\n\n";
 	std::cout << "Enter your choice: ";
 }
 
@@ -37,15 +38,20 @@ void MainPage::actionHandler(PageHandler& pages) {
 	}
 	else if (key == 5) {
 		pages.menuPageShouldDisplay = false;
+		pages.selectCinemaPageShouldDisplay = true;
+		key = 0;
+	}
+	else if (key == 6) {
+		pages.menuPageShouldDisplay = false;
 		pages.registerPageShouldDisplay = true;
 		key = 0;
-	} else if (key == 6) {
+	}
+	else if (key == 7) {
 		std::cout << "Thank you for using CineMax!" << std::endl;
 		exit(0);
 	}
 
-	if(key >= 6 || key <= 0){
-		system("CLS");
+	if(key >= 8 || key <= 0){
 		std::cout << "Invalid option. Please try again." << std::endl;
 	}
 }

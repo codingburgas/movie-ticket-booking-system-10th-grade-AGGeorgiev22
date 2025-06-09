@@ -7,6 +7,7 @@ PageHandler::PageHandler() {
     loginPageShouldDisplay = false;
     viewCinemasPageShouldDisplay = false;
     viewMoviesPageShouldDisplay = false;
+    selectCinemaPageShouldDisplay = false;
     bookTicketsPageShouldDisplay = false;
     addNewCinemaPageShouldDisplay = false;
 }
