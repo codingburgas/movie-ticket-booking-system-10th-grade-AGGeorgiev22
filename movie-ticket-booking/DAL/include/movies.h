@@ -10,3 +10,6 @@ std::vector<int> assignMoviesToHalls(int numHalls);
 ordered_json fetchMoviesFromJson();
 
 void displayMovies(const ordered_json& movieData);
+
+
+void displayMoviesByField(const std::string& field, const std::string& value);

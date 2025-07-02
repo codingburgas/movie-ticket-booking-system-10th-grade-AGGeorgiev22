@@ -10,6 +10,10 @@ public:
 	void actionHandler(PageHandler& pages);
 
 private:
+	void searchMovies();
+	void displayCategorisedSearch();
+	std::string userSearch;
+	int searchChoice = 0;
 	int key;
 	ordered_json movieData = fetchMoviesFromJson();
 };
