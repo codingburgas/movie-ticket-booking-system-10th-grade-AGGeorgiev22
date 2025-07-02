@@ -25,6 +25,8 @@ void SelectCinemaHall::display() {
 	if (!hallFound) {
 		std::cout << "Enter the hall number for the movie you want to watch: ";
 		std::cin >> UserChoices::cinemaHall;
+		std::cout << "Enter the show time (format: 00:00): ";
+		std::cin >> UserChoices::movieShowTime;
 	}
 
 	for (const auto& hall : cinemaData[UserChoices::cinemaID]["halls"]) {
@@ -40,7 +42,7 @@ void SelectCinemaHall::display() {
 		return;
 	}
 	else {
-		std::cout << "You have selected hall number: " << UserChoices::cinemaHall << std::endl;
+		std::cout << "You have selected hall number: " << UserChoices::cinemaHall << " at " << UserChoices::movieShowTime << std::endl;
 		std::cout << "Enter 1 to continue: ";
 		std::cin >> key;
 	}

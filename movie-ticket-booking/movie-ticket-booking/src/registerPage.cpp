@@ -54,7 +54,7 @@ void Register::insertCreds() {
 void Register::checkAndInsertCreds() {
     if (!checkValidity(credentials::firstName, credentials::email, credentials::password)) std::cout << "Invalid credentials!\n";
     else {
-        insertRecord(credentials::firstName, credentials::lastName, credentials::email, credentials::password);
+        insertRecord(credentials::firstName, credentials::lastName, credentials::email, credentials::password, false);
         registered = true;
     }
 }

@@ -5,4 +5,5 @@ namespace credentials {
 	std::string lastName = "";
 	std::string email = "";
 	std::string password = "";
+	bool isAdmin = false;
 }

@@ -1,6 +1,7 @@
 #include "../include/mainPage.h"
 
 void MainPage::display() {
+	loggedUserIsAdmin = credentials::isAdmin;
 	system("cls");
 	std::cout << "+==============================+\n";
 	std::cout << "|      Welcome to CineMax!     |\n";
@@ -10,10 +11,9 @@ void MainPage::display() {
 	std::cout << "1. View Cinemas\n";
 	std::cout << "2. View Movies\n";
 	std::cout << "3. Book Tickets\n";
-	std::cout << "4. Add New Cinema\n";
-	std::cout << "5. Start Selection Process\n";
-	std::cout << "6. Register\n";
-	std::cout << "7. Exit\n\n";
+	std::cout << (loggedUserIsAdmin ? "4. Add New Cinema\n" : "");
+	std::cout << (loggedUserIsAdmin ? "5. Register\n" : "4. Register\n");
+	std::cout << (loggedUserIsAdmin ? "6. Exit\n\n" : "5. Exit\n\n");
 	std::cout << "Enter your choice: ";
 }
 
@@ -29,24 +29,30 @@ void MainPage::actionHandler(PageHandler& pages) {
 		key = 0;
 	} else if (key == 3) {
 		pages.menuPageShouldDisplay = false;
-		pages.selectCinemaHallPageShouldDisplay = true;
+		pages.selectCinemaPageShouldDisplay = true;
 		key = 0;
 	} else if (key == 4) {
-		pages.menuPageShouldDisplay = false;
-		pages.addNewCinemaPageShouldDisplay = true;
+		if(loggedUserIsAdmin) {
+			pages.menuPageShouldDisplay = false;
+			pages.addNewCinemaPageShouldDisplay = true;
+		}
+		else {
+			pages.menuPageShouldDisplay = false;
+			pages.registerPageShouldDisplay = true;
+		}
 		key = 0;
 	}
 	else if (key == 5) {
-		pages.menuPageShouldDisplay = false;
-		pages.selectCinemaPageShouldDisplay = true;
-		key = 0;
+		if (loggedUserIsAdmin) {
+			pages.menuPageShouldDisplay = false;
+			pages.registerPageShouldDisplay = true;
+		}
+		else {
+			std::cout << "Thank you for using CineMax!" << std::endl;
+			exit(0);
+		}
 	}
-	else if (key == 6) {
-		pages.menuPageShouldDisplay = false;
-		pages.registerPageShouldDisplay = true;
-		key = 0;
-	}
-	else if (key == 7) {
+	else if (key == 6 && loggedUserIsAdmin) {
 		std::cout << "Thank you for using CineMax!" << std::endl;
 		exit(0);
 	}

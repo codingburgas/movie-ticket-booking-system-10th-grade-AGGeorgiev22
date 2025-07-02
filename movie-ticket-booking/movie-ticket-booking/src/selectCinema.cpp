@@ -45,7 +45,7 @@ void SelectCinema::display() {
 void SelectCinema::actionHandler(PageHandler& pages) {
 	if (key == 1) {
 		pages.selectCinemaPageShouldDisplay = false;
-		pages.menuPageShouldDisplay = true;
+		pages.selectCinemaHallPageShouldDisplay = true;
 	}
 	else if(key == 2){
 		pages.selectCinemaPageShouldDisplay = false;
