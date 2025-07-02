@@ -6,20 +6,12 @@
 #include "../../BLL/include/credentials.h"
 #include "registerPage.h"
 
-class SelectCinema {
+class SelectSeat {
 public:
 	void display();
 	void actionHandler(PageHandler& pages);
 
 private:
-	Register reg;
-
-	ordered_json cinemaData;
-	std::string lastCinemaId;
-
-	bool cinemaSelected = false;
-	bool userRegistered = false;
-	char continueToRegister = ' ';
-	int key;
-
+	ordered_json cinemaData = fetchCinemasFromJSON();
+	int numOfSeats = 0;
 };

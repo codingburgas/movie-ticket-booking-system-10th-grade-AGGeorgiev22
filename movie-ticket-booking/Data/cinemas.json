@@ -9,180 +9,630 @@
                 "hallNumber": 1,
                 "assignedMovieId": 1,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": true
+                    },
+                    {
+                        "type": "gold",
+                        "taken": true
+                    },
+                    {
+                        "type": "gold",
+                        "taken": true
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 2,
                 "assignedMovieId": 9,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 3,
                 "assignedMovieId": 14,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 4,
                 "assignedMovieId": 7,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 5,
                 "assignedMovieId": 13,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             }
         ]
@@ -196,252 +646,882 @@
             {
                 "hallNumber": 1,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 2,
                 "assignedMovieId": 4,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 3,
                 "assignedMovieId": 18,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 4,
                 "assignedMovieId": 5,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 5,
                 "assignedMovieId": 1,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 6,
                 "assignedMovieId": 16,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 7,
                 "assignedMovieId": 6,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             }
         ]
@@ -455,216 +1535,756 @@
             {
                 "hallNumber": 1,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 2,
                 "assignedMovieId": 10,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 3,
                 "assignedMovieId": 14,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 4,
                 "assignedMovieId": 2,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 5,
                 "assignedMovieId": 17,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 6,
                 "assignedMovieId": 3,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             }
         ]
@@ -678,144 +2298,504 @@
             {
                 "hallNumber": 1,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 2,
                 "assignedMovieId": 19,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 3,
                 "assignedMovieId": 12,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 4,
                 "assignedMovieId": 15,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             }
         ]
@@ -830,108 +2810,378 @@
                 "hallNumber": 1,
                 "assignedMovieId": 4,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 2,
                 "assignedMovieId": 9,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 3,
                 "assignedMovieId": 16,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             }
         ]
@@ -940,142 +3190,510 @@
         "cinemaName": "CineMax Cinema",
         "cinemaCity": "Burgas",
         "cinemaNumOfHalls": 4,
-        "cinemaNumOfSeatsPerHall": 28,
+        "cinemaNumOfSeatsPerHall": 30,
         "halls": [
             {
                 "hallNumber": 1,
                 "assignedMovieId": 1,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 2,
                 "assignedMovieId": 5,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 3,
                 "assignedMovieId": 7,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 4,
                 "assignedMovieId": 6,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             }
         ]
@@ -1084,99 +3702,384 @@
         "cinemaName": "fhadg",
         "cinemaCity": "gsdf",
         "cinemaNumOfHalls": 3,
-        "cinemaNumOfSeatsPerHall": 25,
+        "cinemaNumOfSeatsPerHall": 30,
         "halls": [
             {
                 "hallNumber": 1,
                 "assignedMovieId": 8,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 2,
                 "assignedMovieId": 13,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             },
             {
                 "hallNumber": 3,
                 "assignedMovieId": 10,
                 "seats": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "silver",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "gold",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    },
+                    {
+                        "type": "platinum",
+                        "taken": false
+                    }
                 ]
             }
         ]

@@ -4,5 +4,11 @@
         "lastName": "Georgiev",
         "email": "ag22@gmail.com",
         "password": "Wat71337!"
+    },
+    "2": {
+        "firstName": "Sasho",
+        "lastName": "Georgiev",
+        "email": "ag222@gmail.com",
+        "password": "Wat71337!"
     }
 }

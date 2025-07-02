@@ -5,6 +5,7 @@
 #include "viewCinemas.h"
 #include "viewMovies.h"
 #include "selectCinema.h"
+#include "selectSeat.h"
 #include "addNewCinema.h"
 #include "pageHandler.h"
 
@@ -19,6 +20,7 @@ private:
 	ViewCinemas viewCinemas;
 	ViewMovies viewMovies;
 	SelectCinema selectCinema;
+	SelectSeat selectSeat;
 	AddNewCinema addNewCinema;
 	PageHandler pages;
 

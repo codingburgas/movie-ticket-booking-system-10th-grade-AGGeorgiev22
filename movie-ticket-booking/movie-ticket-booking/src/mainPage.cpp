@@ -29,7 +29,7 @@ void MainPage::actionHandler(PageHandler& pages) {
 		key = 0;
 	} else if (key == 3) {
 		pages.menuPageShouldDisplay = false;
-		pages.bookTicketsPageShouldDisplay = true;
+		pages.selectSeatPageShouldDisplay = true;
 		key = 0;
 	} else if (key == 4) {
 		pages.menuPageShouldDisplay = false;
@@ -50,8 +50,8 @@ void MainPage::actionHandler(PageHandler& pages) {
 		std::cout << "Thank you for using CineMax!" << std::endl;
 		exit(0);
 	}
-
-	if(key >= 8 || key <= 0){
+	else if(key >= 8 || key <= 0){
 		std::cout << "Invalid option. Please try again." << std::endl;
+		return;
 	}
 }
