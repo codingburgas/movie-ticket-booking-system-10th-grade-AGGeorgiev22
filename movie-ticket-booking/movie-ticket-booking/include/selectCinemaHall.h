@@ -1,17 +1,20 @@
 #pragma once
 #include <iostream>
 #include "pageHandler.h"
+#include "../../DAL/include/movies.h"
 #include "../../DAL/include/cinemas.h"
 #include "../../BLL/include/userChoices.h"
 #include "../../BLL/include/credentials.h"
 
-class SelectSeat {
+class SelectCinemaHall {
 public:
 	void display();
 	void actionHandler(PageHandler& pages);
 
 private:
 	ordered_json cinemaData;
-	int numOfSeats = 0;
+	ordered_json movieData;
+	std::string movieID;
+	bool hallFound = false;
 	int key;
 };

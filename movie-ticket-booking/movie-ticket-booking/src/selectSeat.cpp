@@ -1,6 +1,8 @@
 #include "../include/selectSeat.h"
 
 void SelectSeat::display() {
+	cinemaData = fetchCinemasFromJSON();
+
 	system("cls");
 
 	std::cout << "------------------------" << std::endl;
@@ -32,9 +34,14 @@ void SelectSeat::display() {
 
 	updateSelectedSeats(UserChoices::cinemaID, UserChoices::cinemaHall, UserChoices::cinemaSeat, UserChoices::cinemaNumOfBookedSeats);
 
+	std::cout << "\nEnter 1 to continue: ";
+	std::cin >> key;
 }
 
 
 void SelectSeat::actionHandler(PageHandler& pages) {
-
+	if (key == 1) {
+		pages.selectSeatPageShouldDisplay = false;
+		pages.menuPageShouldDisplay = true;
+	}
 }

@@ -161,10 +161,10 @@ void displaySeats(std::string cinemaId, int hallNumber) {
 
         std::cout << label << " ";
 
-        if ((i + 1) % 6 == 0) std::cout << "\n"; // 6 seats per row
+        if ((i + 1) % 6 == 0) std::cout << "\n\n"; 
     }
 
-    std::cout << "\n\nLegend:\n[X] - Taken | [01S] - Silver | [11G] - Gold | [21P] - Platinum\n";
+    std::cout << "\n[X] - Taken | [01S] - Silver | [11G] - Gold | [21P] - Platinum\n\n";
 }
 
 void fetchLastCinemaID(std::string& lastCinemaID) {

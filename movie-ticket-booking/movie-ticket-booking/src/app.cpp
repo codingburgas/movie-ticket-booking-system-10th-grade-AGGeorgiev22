@@ -38,6 +38,11 @@ void App::pageHandler() {
 		selectCinema.actionHandler(pages);
 		return;
 	}
+	if (pages.selectCinemaHallPageShouldDisplay) {
+		selectCinemaHall.display();
+		selectCinemaHall.actionHandler(pages);
+		return;
+	}
 	if (pages.selectSeatPageShouldDisplay) {
 		selectSeat.display();
 		selectSeat.actionHandler(pages);

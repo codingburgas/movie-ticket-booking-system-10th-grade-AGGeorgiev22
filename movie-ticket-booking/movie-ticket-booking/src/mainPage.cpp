@@ -29,7 +29,7 @@ void MainPage::actionHandler(PageHandler& pages) {
 		key = 0;
 	} else if (key == 3) {
 		pages.menuPageShouldDisplay = false;
-		pages.selectSeatPageShouldDisplay = true;
+		pages.selectCinemaHallPageShouldDisplay = true;
 		key = 0;
 	} else if (key == 4) {
 		pages.menuPageShouldDisplay = false;

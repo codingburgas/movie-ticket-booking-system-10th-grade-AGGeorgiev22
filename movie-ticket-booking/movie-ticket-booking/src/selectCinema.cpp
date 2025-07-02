@@ -10,9 +10,6 @@ void SelectCinema::display() {
 	std::cout << "------------------------" << std::endl;
 	displayCinemas(cinemaData);
 
-	std::cout << "Last cinema id is: " << lastCinemaId << std::endl;
-	std::cout << "User selected cinema id: " << UserChoices::cinemaID << std::endl;
-
 	if (!cinemaSelected) {
 		std::cout << "Enter the cinema ID to select a cinema: ";
 		std::cin >> UserChoices::cinemaID;
@@ -27,7 +24,7 @@ void SelectCinema::display() {
 			std::cin >> continueToRegister;
 
 			if (continueToRegister == 'R' || continueToRegister == 'r') {
-				reg.display();
+				key = 2;
 				return;
 			}
 		}
@@ -49,5 +46,9 @@ void SelectCinema::actionHandler(PageHandler& pages) {
 	if (key == 1) {
 		pages.selectCinemaPageShouldDisplay = false;
 		pages.menuPageShouldDisplay = true;
+	}
+	else if(key == 2){
+		pages.selectCinemaPageShouldDisplay = false;
+		pages.registerPageShouldDisplay = true;
 	}
 }
