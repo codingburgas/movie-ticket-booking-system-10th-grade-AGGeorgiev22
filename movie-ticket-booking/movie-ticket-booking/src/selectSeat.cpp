@@ -20,14 +20,19 @@ void SelectSeat::display() {
 		return;
 	}
 
-	std::cout << "Enter the seat numbers you want to book: ";
+	std::cout << "Enter the seat numbers you want to book: \n";
 	for(int i = 0; i < UserChoices::cinemaNumOfBookedSeats; i++) {
 		int seatNumber;
 		std::cin >> seatNumber;
 		if(seatNumber < 1 || seatNumber > numOfSeats) {
 			std::cout << "Invalid seat number. Please enter a number between 1 and " << numOfSeats << "." << std::endl;
-			i--; // Decrement to retry this seat
-		} else {
+			i--; 
+		}
+		else if (isSeatTaken(seatNumber)) {
+			std::cout << "This seat is already taken. Please select another seat\n";
+			i--;
+		}
+		else {
 			UserChoices::cinemaSeat[i] = seatNumber;
 		}
 	}
@@ -38,10 +43,23 @@ void SelectSeat::display() {
 	std::cin >> key;
 }
 
+bool SelectSeat::isSeatTaken(int seatNumber) {
+	auto& halls = cinemaData[UserChoices::cinemaID]["halls"];
+	auto it = std::find_if(halls.begin(), halls.end(), [](const auto& hall) {
+		return hall["hallNumber"] == UserChoices::cinemaHall;
+		});
+
+	if (it != halls.end()) {
+		int index = seatNumber - 1;
+		
+		return (*it)["seats"][index]["taken"];
+	}
+}
+
 
 void SelectSeat::actionHandler(PageHandler& pages) {
 	if (key == 1) {
 		pages.selectSeatPageShouldDisplay = false;
-		pages.menuPageShouldDisplay = true;
+		pages.bookTicketsPageShouldDisplay = true;
 	}
 }

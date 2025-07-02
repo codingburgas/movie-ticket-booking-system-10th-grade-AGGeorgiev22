@@ -48,6 +48,11 @@ void App::pageHandler() {
 		selectSeat.actionHandler(pages);
 		return;
 	}
+	if (pages.bookTicketsPageShouldDisplay) {
+		booking.display();
+		booking.actionHandler(pages);
+		return;
+	}
 	if (pages.addNewCinemaPageShouldDisplay) {
 		addNewCinema.display();
 		addNewCinema.actionHandler(pages);

@@ -142,8 +142,8 @@ void displaySeats(std::string cinemaId, int hallNumber) {
     }
 
     const auto& seats = (*it)["seats"];
-    std::cout << "Showing seats for cinema ID " << cinemaId
-        << ", hall #" << hallNumber << "\n\n";
+    std::cout << "Showing seats for " << data[cinemaKey]["cinemaName"]
+        << " hall #" << hallNumber << "\n\n";
 
     for (size_t i = 0; i < seats.size(); ++i) {
         std::string type = seats[i]["type"];

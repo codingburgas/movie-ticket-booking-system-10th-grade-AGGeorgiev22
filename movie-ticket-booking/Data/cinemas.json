@@ -55,15 +55,15 @@
                     },
                     {
                         "type": "gold",
-                        "taken": true
+                        "taken": false
                     },
                     {
                         "type": "gold",
-                        "taken": true
+                        "taken": false
                     },
                     {
                         "type": "gold",
-                        "taken": true
+                        "taken": false
                     },
                     {
                         "type": "gold",
@@ -283,19 +283,19 @@
                     },
                     {
                         "type": "silver",
-                        "taken": true
+                        "taken": false
                     },
                     {
                         "type": "silver",
-                        "taken": true
+                        "taken": false
                     },
                     {
                         "type": "silver",
-                        "taken": true
+                        "taken": false
                     },
                     {
                         "type": "silver",
-                        "taken": true
+                        "taken": false
                     },
                     {
                         "type": "silver",
@@ -645,6 +645,7 @@
         "halls": [
             {
                 "hallNumber": 1,
+                "assignedMovieId": 16,
                 "seats": [
                     {
                         "type": "silver",
@@ -1534,6 +1535,7 @@
         "halls": [
             {
                 "hallNumber": 1,
+                "assignedMovieId": 19,
                 "seats": [
                     {
                         "type": "silver",
@@ -2297,6 +2299,7 @@
         "halls": [
             {
                 "hallNumber": 1,
+                "assignedMovieId": 6,
                 "seats": [
                     {
                         "type": "silver",

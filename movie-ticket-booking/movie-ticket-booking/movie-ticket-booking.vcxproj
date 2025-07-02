@@ -137,6 +137,7 @@
   <ItemGroup>
     <ClCompile Include="src\addNewCinema.cpp" />
     <ClCompile Include="src\app.cpp" />
+    <ClCompile Include="src\bookTickets.cpp" />
     <ClCompile Include="src\loginPage.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\mainPage.cpp" />
@@ -151,6 +152,7 @@
   <ItemGroup>
     <ClInclude Include="include\addNewCinema.h" />
     <ClInclude Include="include\app.h" />
+    <ClInclude Include="include\bookTickets.h" />
     <ClInclude Include="include\loginPage.h" />
     <ClInclude Include="include\mainPage.h" />
     <ClInclude Include="include\pageHandler.h" />

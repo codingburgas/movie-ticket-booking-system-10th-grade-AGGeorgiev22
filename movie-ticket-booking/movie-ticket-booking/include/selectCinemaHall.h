@@ -16,5 +16,6 @@ private:
 	ordered_json movieData;
 	std::string movieID;
 	bool hallFound = false;
+	bool showtimeExists = false;
 	int key;
 };

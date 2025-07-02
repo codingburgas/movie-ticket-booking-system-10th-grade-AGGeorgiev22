@@ -8,6 +8,7 @@
 #include "selectCinemaHall.h"
 #include "selectSeat.h"
 #include "addNewCinema.h"
+#include "bookTickets.h"
 #include "pageHandler.h"
 
 class App {
@@ -24,6 +25,7 @@ private:
 	SelectCinemaHall selectCinemaHall;
 	SelectSeat selectSeat;
 	AddNewCinema addNewCinema;
+	BookTickets booking;
 	PageHandler pages;
 
 	bool running = true;

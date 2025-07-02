@@ -1,18 +1,20 @@
 #pragma once
 #include <iostream>
 #include "pageHandler.h"
-#include "../../DAL/include/cinemas.h"
+#include "../../DAL/include/movies.h"
 #include "../../BLL/include/userChoices.h"
 #include "../../BLL/include/credentials.h"
 
-class SelectSeat {
+class BookTickets {
 public:
 	void display();
 	void actionHandler(PageHandler& pages);
 
 private:
-	bool isSeatTaken(int seatNumber);
-	ordered_json cinemaData;
-	int numOfSeats = 0;
+	void calculateTotalPrice();
+	bool isValidCardFormat(const std::string& cardNumber);
+	ordered_json movieData;
+	int totalPrice = 0;
+	std::string cardNumber;
 	int key;
 };
