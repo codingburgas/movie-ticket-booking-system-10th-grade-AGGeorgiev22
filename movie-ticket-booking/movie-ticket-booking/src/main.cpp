@@ -1,5 +1,5 @@
 #include "../include/app.h"
 
 int main() {
-	App App;
+	App* app = new App;
 }

@@ -24,20 +24,31 @@ void addCinema(std::string cinemaName, std::string cinemaCity, int cinemaNumOfHa
     }
     std::string newKey = std::to_string(key);
 
-    int numHalls = cinemaNumOfHalls;
-    int seatsPerHall = cinemaNumOfSeatsPerHall;
-
     // Assign movies
-    std::vector<int> movieIds = assignMoviesToHalls(numHalls);
+    std::vector<int> movieIds = assignMoviesToHalls(cinemaNumOfHalls);
+
+    std::vector<std::string> types = { "silver", "gold", "platinum" };
 
     // Create halls array
     ordered_json halls = ordered_json::array();
-    for (int i = 0; i < numHalls; ++i) {
+    for (int i = 0; i < cinemaNumOfHalls; ++i) {
         ordered_json hall;
         hall["hallNumber"] = i + 1;
         hall["assignedMovieId"] = movieIds[i];
 
-        std::vector<bool> seats(seatsPerHall, false); // all available
+        ordered_json seats = ordered_json::array();
+        for (int j = 0; j < cinemaNumOfSeatsPerHall; ++j) {
+            ordered_json seat;
+
+            // Assign type by position
+            if (j < 10) seat["type"] = "silver";
+            else if (j < 20) seat["type"] = "gold";
+            else seat["type"] = "platinum";
+
+            seat["taken"] = false;
+            seats.push_back(seat);
+        }
+
         hall["seats"] = seats;
 
         halls.push_back(hall);
@@ -102,6 +113,60 @@ void displayCinemas(ordered_json& cinemaData) {
     }
 }
 
+void displaySeats(std::string cinemaId, int hallNumber) {
+    std::ifstream inFile("../../movie-ticket-booking/Data/cinemas.json");
+    if (!inFile.is_open()) {
+        std::cout << "Error opening file.\n";
+        return;
+    }
+
+    ordered_json data;
+    inFile >> data;
+    inFile.close();
+
+    std::string cinemaKey = cinemaId;
+    if (!data.contains(cinemaKey)) {
+        std::cout << "Cinema ID not found.\n";
+        return;
+    }
+
+    const auto& halls = data[cinemaKey]["halls"];
+    const auto it = std::find_if(halls.begin(), halls.end(),
+        [hallNumber](const auto& hall) {
+            return hall["hallNumber"] == hallNumber;
+        });
+
+    if (it == halls.end()) {
+        std::cout << "Hall number not found in cinema.\n";
+        return;
+    }
+
+    const auto& seats = (*it)["seats"];
+    std::cout << "Showing seats for " << data[cinemaKey]["cinemaName"]
+        << " hall #" << hallNumber << "\n\n";
+
+    for (size_t i = 0; i < seats.size(); ++i) {
+        std::string type = seats[i]["type"];
+        bool taken = seats[i]["taken"];
+
+        char shortType = toupper(type[0]); // S, G, or P
+        std::string label;
+
+        if (taken)
+            label = "[ X ]";
+        else {
+            label = "[" + std::string(i + 1 < 10 ? "0" : "") +
+                std::to_string(i + 1) + shortType + "]";
+        }
+
+        std::cout << label << " ";
+
+        if ((i + 1) % 6 == 0) std::cout << "\n\n"; 
+    }
+
+    std::cout << "\n[X] - Taken | [01S] - Silver | [11G] - Gold | [21P] - Platinum\n\n";
+}
+
 void fetchLastCinemaID(std::string& lastCinemaID) {
     ordered_json cinemaData = fetchCinemasFromJSON();
     if (cinemaData.empty()) {
@@ -111,4 +176,52 @@ void fetchLastCinemaID(std::string& lastCinemaID) {
     for (auto& item : cinemaData.items()) {
 		lastCinemaID = item.key();
     }
+}
+
+void updateSelectedSeats(const std::string& cinemaID, int hallNumber, int selectedSeats[], int numSeats) {
+    std::ifstream inFile("../../movie-ticket-booking/Data/cinemas.json");
+    if (!inFile.is_open()) {
+        std::cout << "Failed to open JSON file.\n";
+        return;
+    }
+
+    ordered_json data;
+    inFile >> data;
+    inFile.close();
+
+    if (!data.contains(cinemaID)) {
+        std::cout << "Cinema ID not found.\n";
+        return;
+    }
+
+    auto& halls = data[cinemaID]["halls"];
+    auto hallIt = std::find_if(halls.begin(), halls.end(), [&](const ordered_json& hall) {
+        return hall["hallNumber"] == hallNumber;
+        });
+
+    if (hallIt == halls.end()) {
+        std::cout << "Hall number not found.\n";
+        return;
+    }
+
+    for (int i = 0; i < numSeats; ++i) {
+        int seatIndex = selectedSeats[i] - 1;
+        if (seatIndex >= 0 && seatIndex < static_cast<int>((*hallIt)["seats"].size())) {
+            (*hallIt)["seats"][seatIndex]["taken"] = true;
+        }
+        else {
+            std::cout << "Invalid seat index: " << selectedSeats[i] << "\n";
+        }
+    }
+
+    std::ofstream outFile("../../movie-ticket-booking/Data/cinemas.json", std::ios::out | std::ios::trunc);
+    if (!outFile.is_open()) {
+        std::cout << "Failed to write to file.\n";
+        return;
+    }
+
+    outFile << data.dump(4);
+    outFile.close();
+
+    std::cout << "Seats updated successfully.\n";
 }

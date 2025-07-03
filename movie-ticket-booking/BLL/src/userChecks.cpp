@@ -87,11 +87,3 @@ void hidePassword(std::string& password) {
     }
     std::cout << std::endl;  // Print a newline after the password
 }
-
-std::string createFileLine(std::string& name, std::string& email, std::string& password)
-{
-    // Input all credentials in the file
-    std::string inputLine;
-    inputLine = name + " " + email + " " + password;
-    return inputLine;
-}

@@ -9,6 +9,9 @@ public:
 	bool viewCinemasPageShouldDisplay;
     bool viewMoviesPageShouldDisplay;
 	bool selectCinemaPageShouldDisplay;
+    bool selectCinemaHallPageShouldDisplay;
+    bool selectSeatPageShouldDisplay;
     bool bookTicketsPageShouldDisplay;
     bool addNewCinemaPageShouldDisplay;
+    bool manageMoviesPageShouldDisplay;
 };

@@ -5,7 +5,11 @@
 #include "viewCinemas.h"
 #include "viewMovies.h"
 #include "selectCinema.h"
+#include "selectCinemaHall.h"
+#include "selectSeat.h"
 #include "addNewCinema.h"
+#include "addOrDeleteMovie.h"
+#include "bookTickets.h"
 #include "pageHandler.h"
 
 class App {
@@ -19,7 +23,11 @@ private:
 	ViewCinemas viewCinemas;
 	ViewMovies viewMovies;
 	SelectCinema selectCinema;
+	SelectCinemaHall selectCinemaHall;
+	SelectSeat selectSeat;
 	AddNewCinema addNewCinema;
+	AddOrDeleteMovie manageMovies;
+	BookTickets booking;
 	PageHandler pages;
 
 	bool running = true;

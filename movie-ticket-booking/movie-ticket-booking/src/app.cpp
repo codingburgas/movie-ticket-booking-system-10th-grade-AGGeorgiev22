@@ -38,9 +38,29 @@ void App::pageHandler() {
 		selectCinema.actionHandler(pages);
 		return;
 	}
+	if (pages.selectCinemaHallPageShouldDisplay) {
+		selectCinemaHall.display();
+		selectCinemaHall.actionHandler(pages);
+		return;
+	}
+	if (pages.selectSeatPageShouldDisplay) {
+		selectSeat.display();
+		selectSeat.actionHandler(pages);
+		return;
+	}
+	if (pages.bookTicketsPageShouldDisplay) {
+		booking.display();
+		booking.actionHandler(pages);
+		return;
+	}
 	if (pages.addNewCinemaPageShouldDisplay) {
 		addNewCinema.display();
 		addNewCinema.actionHandler(pages);
+		return;
+	}
+	if (pages.manageMoviesPageShouldDisplay) {
+		manageMovies.display();
+		manageMovies.actionHandler(pages);
 		return;
 	}
 	if (pages.exitApp) {

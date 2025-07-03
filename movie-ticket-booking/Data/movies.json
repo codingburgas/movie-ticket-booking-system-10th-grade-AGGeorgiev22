@@ -1,162 +1,311 @@
 {
-  "1": {
-    "title": "The Last Horizon",
-    "language": "English",
-    "genre": "Sci-Fi",
-    "releaseDate": "2024-10-01",
-    "ticketPrice": 12.00,
-    "showtimes": ["14:00", "17:30", "20:00"]
-  },
-  "2": {
-    "title": "Echoes of Silence",
-    "language": "Bulgarian",
-    "genre": "Drama",
-    "releaseDate": "2023-11-15",
-    "ticketPrice": 8.50,
-    "showtimes": ["13:00", "15:45"]
-  },
-  "3": {
-    "title": "Midnight Drift",
-    "language": "Japanese",
-    "genre": "Thriller",
-    "releaseDate": "2025-02-10",
-    "ticketPrice": 10.00,
-    "showtimes": ["18:00", "21:15"]
-  },
-  "4": {
-    "title": "Legends Never Die",
-    "language": "English",
-    "genre": "Action",
-    "releaseDate": "2024-06-20",
-    "ticketPrice": 11.50,
-    "showtimes": ["12:30", "16:00", "19:30"]
-  },
-  "5": {
-    "title": "A Taste of Summer",
-    "language": "French",
-    "genre": "Romance",
-    "releaseDate": "2023-07-05",
-    "ticketPrice": 9.00,
-    "showtimes": ["10:30", "14:00"]
-  },
-  "6": {
-    "title": "Code Nexus",
-    "language": "English",
-    "genre": "Sci-Fi",
-    "releaseDate": "2024-03-03",
-    "ticketPrice": 13.00,
-    "showtimes": ["15:00", "18:15", "21:00"]
-  },
-  "7": {
-    "title": "The Forgotten Path",
-    "language": "Bulgarian",
-    "genre": "Mystery",
-    "releaseDate": "2023-09-12",
-    "ticketPrice": 8.00,
-    "showtimes": ["11:45", "14:30"]
-  },
-  "8": {
-    "title": "Dragon Souls",
-    "language": "Chinese",
-    "genre": "Fantasy",
-    "releaseDate": "2025-01-22",
-    "ticketPrice": 10.50,
-    "showtimes": ["12:00", "15:00", "18:30"]
-  },
-  "9": {
-    "title": "Crimson Pulse",
-    "language": "English",
-    "genre": "Horror",
-    "releaseDate": "2024-10-31",
-    "ticketPrice": 11.00,
-    "showtimes": ["19:00", "21:30"]
-  },
-  "10": {
-    "title": "Painted Skies",
-    "language": "Italian",
-    "genre": "Art/Drama",
-    "releaseDate": "2024-05-01",
-    "ticketPrice": 8.75,
-    "showtimes": ["13:15", "16:30"]
-  },
-  "11": {
-    "title": "Chase Zero",
-    "language": "English",
-    "genre": "Action",
-    "releaseDate": "2023-12-11",
-    "ticketPrice": 10.00,
-    "showtimes": ["14:45", "17:30", "20:15"]
-  },
-  "12": {
-    "title": "Stargazer",
-    "language": "English",
-    "genre": "Adventure",
-    "releaseDate": "2025-04-08",
-    "ticketPrice": 12.00,
-    "showtimes": ["10:00", "13:30", "17:00"]
-  },
-  "13": {
-    "title": "Beneath the City",
-    "language": "Russian",
-    "genre": "Thriller",
-    "releaseDate": "2023-06-19",
-    "ticketPrice": 9.25,
-    "showtimes": ["12:45", "16:15"]
-  },
-  "14": {
-    "title": "Digital Dreams",
-    "language": "English",
-    "genre": "Sci-Fi",
-    "releaseDate": "2024-11-01",
-    "ticketPrice": 11.50,
-    "showtimes": ["13:00", "17:30", "20:30"]
-  },
-  "15": {
-    "title": "When We Were Young",
-    "language": "Bulgarian",
-    "genre": "Drama",
-    "releaseDate": "2023-08-30",
-    "ticketPrice": 7.50,
-    "showtimes": ["10:00", "13:45"]
-  },
-  "16": {
-    "title": "Ocean Between Us",
-    "language": "Spanish",
-    "genre": "Romance",
-    "releaseDate": "2024-02-14",
-    "ticketPrice": 9.75,
-    "showtimes": ["14:30", "17:00"]
-  },
-  "17": {
-    "title": "The Iron Path",
-    "language": "German",
-    "genre": "War/History",
-    "releaseDate": "2023-04-27",
-    "ticketPrice": 10.25,
-    "showtimes": ["15:00", "19:00"]
-  },
-  "18": {
-    "title": "Quantum Lives",
-    "language": "English",
-    "genre": "Sci-Fi",
-    "releaseDate": "2025-01-10",
-    "ticketPrice": 13.50,
-    "showtimes": ["13:30", "16:00", "18:45"]
-  },
-  "19": {
-    "title": "Fallen Leaves",
-    "language": "Polish",
-    "genre": "Drama",
-    "releaseDate": "2023-10-05",
-    "ticketPrice": 8.25,
-    "showtimes": ["12:00", "15:30"]
-  },
-  "20": {
-    "title": "Neon Rebellion",
-    "language": "English",
-    "genre": "Cyberpunk/Action",
-    "releaseDate": "2024-08-18",
-    "ticketPrice": 12.75,
-    "showtimes": ["17:00", "20:00", "22:30"]
-  }
+    "1": {
+        "title": "The Last Horizon",
+        "language": "English",
+        "genre": "Sci-Fi",
+        "releaseDate": "2024-10-01",
+        "ticketPrice": {
+            "silver": 10.0,
+            "gold": 12.0,
+            "platinum": 14.0
+        },
+        "showtimes": [
+            "14:00",
+            "17:30",
+            "20:00"
+        ]
+    },
+    "2": {
+        "title": "Echoes of Silence",
+        "language": "Bulgarian",
+        "genre": "Drama",
+        "releaseDate": "2023-11-15",
+        "ticketPrice": {
+            "silver": 6.5,
+            "gold": 7.5,
+            "platinum": 8.5
+        },
+        "showtimes": [
+            "13:00",
+            "15:45"
+        ]
+    },
+    "3": {
+        "title": "Midnight Drift",
+        "language": "Japanese",
+        "genre": "Thriller",
+        "releaseDate": "2025-02-10",
+        "ticketPrice": {
+            "silver": 8.0,
+            "gold": 9.0,
+            "platinum": 10.0
+        },
+        "showtimes": [
+            "18:00",
+            "21:15"
+        ]
+    },
+    "4": {
+        "title": "Legends Never Die",
+        "language": "English",
+        "genre": "Action",
+        "releaseDate": "2024-06-20",
+        "ticketPrice": {
+            "silver": 9.5,
+            "gold": 11.5,
+            "platinum": 13.5
+        },
+        "showtimes": [
+            "12:30",
+            "16:00",
+            "19:30"
+        ]
+    },
+    "5": {
+        "title": "A Taste of Summer",
+        "language": "French",
+        "genre": "Romance",
+        "releaseDate": "2023-07-05",
+        "ticketPrice": {
+            "silver": 7.0,
+            "gold": 8.0,
+            "platinum": 9.0
+        },
+        "showtimes": [
+            "10:30",
+            "14:00"
+        ]
+    },
+    "6": {
+        "title": "Code Nexus",
+        "language": "English",
+        "genre": "Sci-Fi",
+        "releaseDate": "2024-03-03",
+        "ticketPrice": {
+            "silver": 11.0,
+            "gold": 13.0,
+            "platinum": 15.0
+        },
+        "showtimes": [
+            "15:00",
+            "18:15",
+            "21:00"
+        ]
+    },
+    "7": {
+        "title": "The Forgotten Path",
+        "language": "Bulgarian",
+        "genre": "Mystery",
+        "releaseDate": "2023-09-12",
+        "ticketPrice": {
+            "silver": 7.0,
+            "gold": 8.0,
+            "platinum": 9.0
+        },
+        "showtimes": [
+            "11:45",
+            "14:30"
+        ]
+    },
+    "8": {
+        "title": "Dragon Souls",
+        "language": "Chinese",
+        "genre": "Fantasy",
+        "releaseDate": "2025-01-22",
+        "ticketPrice": {
+            "silver": 8.5,
+            "gold": 9.5,
+            "platinum": 10.5
+        },
+        "showtimes": [
+            "12:00",
+            "15:00",
+            "18:30"
+        ]
+    },
+    "9": {
+        "title": "Crimson Pulse",
+        "language": "English",
+        "genre": "Horror",
+        "releaseDate": "2024-10-31",
+        "ticketPrice": {
+            "silver": 9.0,
+            "gold": 10.0,
+            "platinum": 11.0
+        },
+        "showtimes": [
+            "19:00",
+            "21:30"
+        ]
+    },
+    "10": {
+        "title": "Painted Skies",
+        "language": "Italian",
+        "genre": "Art/Drama",
+        "releaseDate": "2024-05-01",
+        "ticketPrice": {
+            "silver": 7.0,
+            "gold": 8.0,
+            "platinum": 9.0
+        },
+        "showtimes": [
+            "13:15",
+            "16:30"
+        ]
+    },
+    "11": {
+        "title": "Chase Zero",
+        "language": "English",
+        "genre": "Action",
+        "releaseDate": "2023-12-11",
+        "ticketPrice": {
+            "silver": 8.0,
+            "gold": 9.0,
+            "platinum": 10.0
+        },
+        "showtimes": [
+            "14:45",
+            "17:30",
+            "20:15"
+        ]
+    },
+    "12": {
+        "title": "Stargazer",
+        "language": "English",
+        "genre": "Adventure",
+        "releaseDate": "2025-04-08",
+        "ticketPrice": {
+            "silver": 10.0,
+            "gold": 11.0,
+            "platinum": 12.0
+        },
+        "showtimes": [
+            "10:00",
+            "13:30",
+            "17:00"
+        ]
+    },
+    "13": {
+        "title": "Beneath the City",
+        "language": "Russian",
+        "genre": "Thriller",
+        "releaseDate": "2023-06-19",
+        "ticketPrice": {
+            "silver": 7.5,
+            "gold": 8.5,
+            "platinum": 9.5
+        },
+        "showtimes": [
+            "12:45",
+            "16:15"
+        ]
+    },
+    "14": {
+        "title": "Digital Dreams",
+        "language": "English",
+        "genre": "Sci-Fi",
+        "releaseDate": "2024-11-01",
+        "ticketPrice": {
+            "silver": 9.5,
+            "gold": 10.5,
+            "platinum": 11.5
+        },
+        "showtimes": [
+            "13:00",
+            "17:30",
+            "20:30"
+        ]
+    },
+    "15": {
+        "title": "When We Were Young",
+        "language": "Bulgarian",
+        "genre": "Drama",
+        "releaseDate": "2023-08-30",
+        "ticketPrice": {
+            "silver": 6.0,
+            "gold": 7.0,
+            "platinum": 8.0
+        },
+        "showtimes": [
+            "10:00",
+            "13:45"
+        ]
+    },
+    "16": {
+        "title": "Ocean Between Us",
+        "language": "Spanish",
+        "genre": "Romance",
+        "releaseDate": "2024-02-14",
+        "ticketPrice": {
+            "silver": 8.0,
+            "gold": 9.0,
+            "platinum": 10.0
+        },
+        "showtimes": [
+            "14:30",
+            "17:00"
+        ]
+    },
+    "17": {
+        "title": "The Iron Path",
+        "language": "German",
+        "genre": "War/History",
+        "releaseDate": "2023-04-27",
+        "ticketPrice": {
+            "silver": 8.0,
+            "gold": 9.0,
+            "platinum": 10.0
+        },
+        "showtimes": [
+            "15:00",
+            "19:00"
+        ]
+    },
+    "18": {
+        "title": "Quantum Lives",
+        "language": "English",
+        "genre": "Sci-Fi",
+        "releaseDate": "2025-01-10",
+        "ticketPrice": {
+            "silver": 11.0,
+            "gold": 12.0,
+            "platinum": 13.5
+        },
+        "showtimes": [
+            "13:30",
+            "16:00",
+            "18:45"
+        ]
+    },
+    "19": {
+        "title": "Fallen Leaves",
+        "language": "Polish",
+        "genre": "Drama",
+        "releaseDate": "2023-10-05",
+        "ticketPrice": {
+            "silver": 7.0,
+            "gold": 8.0,
+            "platinum": 9.0
+        },
+        "showtimes": [
+            "12:00",
+            "15:30"
+        ]
+    },
+    "20": {
+        "title": "Neon Rebellion",
+        "language": "English",
+        "genre": "Cyberpunk/Action",
+        "releaseDate": "2024-08-18",
+        "ticketPrice": {
+            "silver": 10.0,
+            "gold": 11.5,
+            "platinum": 12.75
+        },
+        "showtimes": [
+            "17:00",
+            "20:00",
+            "22:30"
+        ]
+    }
 }

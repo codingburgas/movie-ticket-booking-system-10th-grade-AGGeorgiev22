@@ -1,7 +1,7 @@
 #include "../include/users.h"
 
 
-void insertRecord(std::string firstName, std::string lastName, std::string email, std::string password)
+void insertRecord(std::string firstName, std::string lastName, std::string email, std::string password, bool isAdmin)
 {
     std::ifstream inFile("../../movie-ticket-booking/Data/accounts.json");
     ordered_json data;
@@ -25,7 +25,8 @@ void insertRecord(std::string firstName, std::string lastName, std::string email
         {"firstName", firstName},
         {"lastName", lastName},
         {"email", email},
-        {"password", password}
+        {"password", password},
+		{"admin", isAdmin} 
     };
     data[newKey] = newEntry;
 
@@ -63,6 +64,7 @@ bool loginUser(std::string email, std::string password)
             if (user.contains("password") && user["password"] == password) {
                 credentials::firstName = user.value("firstName", "");
                 credentials::lastName = user.value("lastName", "");
+				credentials::isAdmin = user.value("admin", false);
                 return true;
             }
             else {

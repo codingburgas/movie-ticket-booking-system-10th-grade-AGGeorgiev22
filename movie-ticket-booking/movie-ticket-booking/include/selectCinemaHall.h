@@ -3,17 +3,19 @@
 #include "pageHandler.h"
 #include "../../DAL/include/movies.h"
 #include "../../DAL/include/cinemas.h"
+#include "../../BLL/include/userChoices.h"
+#include "../../BLL/include/credentials.h"
 
-class ViewMovies {
+class SelectCinemaHall {
 public:
 	void display();
 	void actionHandler(PageHandler& pages);
 
 private:
-	void searchMovies();
-	void displayCategorisedSearch();
-	std::string userSearch;
-	int searchChoice = 0;
-	int key;
+	ordered_json cinemaData;
 	ordered_json movieData;
+	std::string movieID;
+	bool hallFound = false;
+	bool showtimeExists = false;
+	int key;
 };
