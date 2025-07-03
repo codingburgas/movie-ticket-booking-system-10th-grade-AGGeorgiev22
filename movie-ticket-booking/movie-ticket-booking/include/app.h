@@ -8,6 +8,7 @@
 #include "selectCinemaHall.h"
 #include "selectSeat.h"
 #include "addNewCinema.h"
+#include "addOrDeleteMovie.h"
 #include "bookTickets.h"
 #include "pageHandler.h"
 
@@ -25,6 +26,7 @@ private:
 	SelectCinemaHall selectCinemaHall;
 	SelectSeat selectSeat;
 	AddNewCinema addNewCinema;
+	AddOrDeleteMovie manageMovies;
 	BookTickets booking;
 	PageHandler pages;
 

@@ -2,6 +2,7 @@
 
 void MainPage::display() {
 	loggedUserIsAdmin = credentials::isAdmin;
+	credentials::email.empty() ? userIsLogged = false : userIsLogged = true;
 	system("cls");
 	std::cout << "+==============================+\n";
 	std::cout << "|      Welcome to CineMax!     |\n";
@@ -12,8 +13,9 @@ void MainPage::display() {
 	std::cout << "2. View Movies\n";
 	std::cout << "3. Book Tickets\n";
 	std::cout << (loggedUserIsAdmin ? "4. Add New Cinema\n" : "");
-	std::cout << (loggedUserIsAdmin ? "5. Register\n" : "4. Register\n");
-	std::cout << (loggedUserIsAdmin ? "6. Exit\n\n" : "5. Exit\n\n");
+	std::cout << (loggedUserIsAdmin ? "5. Manage movies\n" : "");
+	std::cout << (loggedUserIsAdmin ? (userIsLogged ? "6. Log out\n" : "6. Register\n") : (userIsLogged ? "4. Log out\n" : "4. Register\n"));
+	std::cout << (loggedUserIsAdmin ? "7. Exit\n\n" : "5. Exit\n\n");
 	std::cout << "Enter your choice: ";
 }
 
@@ -37,22 +39,59 @@ void MainPage::actionHandler(PageHandler& pages) {
 			pages.addNewCinemaPageShouldDisplay = true;
 		}
 		else {
-			pages.menuPageShouldDisplay = false;
-			pages.registerPageShouldDisplay = true;
+			if (userIsLogged) {
+				credentials::firstName = "";
+				credentials::lastName = "";
+				credentials::email = "";
+				credentials::password = "";
+				credentials::cardNumber = "";
+				credentials::securityCode = 0;
+				credentials::isAdmin = false;
+				userIsLogged = false;
+				std::cout << "Logged out successfully\n";
+			}
+			else {
+				pages.menuPageShouldDisplay = false;
+				pages.registerPageShouldDisplay = true;
+			}
 		}
 		key = 0;
 	}
 	else if (key == 5) {
 		if (loggedUserIsAdmin) {
 			pages.menuPageShouldDisplay = false;
-			pages.registerPageShouldDisplay = true;
+			pages.manageMoviesPageShouldDisplay = true;
+		}
+		else {
+			std::cout << "Thank you for using CineMax!" << std::endl;
+			exit(0);
+		}
+		key = 0;
+	}
+	else if (key == 6) {
+		if (loggedUserIsAdmin) {
+			if (userIsLogged) {
+				credentials::firstName = "";
+				credentials::lastName = "";
+				credentials::email = "";
+				credentials::password = "";
+				credentials::cardNumber = "";
+				credentials::securityCode = 0;
+				credentials::isAdmin = false;
+				userIsLogged = false;
+				std::cout << "Logged out successfully\n";
+			}
+			else {
+				pages.menuPageShouldDisplay = false;
+				pages.registerPageShouldDisplay = true;
+			}
 		}
 		else {
 			std::cout << "Thank you for using CineMax!" << std::endl;
 			exit(0);
 		}
 	}
-	else if (key == 6 && loggedUserIsAdmin) {
+	else if (key == 7 && loggedUserIsAdmin) {
 		std::cout << "Thank you for using CineMax!" << std::endl;
 		exit(0);
 	}

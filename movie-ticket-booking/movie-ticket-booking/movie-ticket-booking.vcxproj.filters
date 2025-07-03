@@ -54,6 +54,9 @@
     <ClCompile Include="src\bookTickets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\addOrDeleteMovie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\app.h">
@@ -90,6 +93,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\bookTickets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\addOrDeleteMovie.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

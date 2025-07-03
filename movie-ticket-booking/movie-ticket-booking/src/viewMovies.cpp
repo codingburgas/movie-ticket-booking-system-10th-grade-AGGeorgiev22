@@ -1,6 +1,7 @@
 #include "../include/viewMovies.h"
 
 void ViewMovies::display() {
+	movieData = fetchMoviesFromJson();
 	system("cls");
 	std::cout << "--------------------------------\n";
 	std::cout << "        AVAILABLE MOVIES:\n";

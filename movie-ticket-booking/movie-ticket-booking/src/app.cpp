@@ -58,6 +58,11 @@ void App::pageHandler() {
 		addNewCinema.actionHandler(pages);
 		return;
 	}
+	if (pages.manageMoviesPageShouldDisplay) {
+		manageMovies.display();
+		manageMovies.actionHandler(pages);
+		return;
+	}
 	if (pages.exitApp) {
 		running = false;
 		return;

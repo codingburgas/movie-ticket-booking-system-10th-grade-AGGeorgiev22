@@ -15,5 +15,5 @@ private:
 	std::string userSearch;
 	int searchChoice = 0;
 	int key;
-	ordered_json movieData = fetchMoviesFromJson();
+	ordered_json movieData;
 };

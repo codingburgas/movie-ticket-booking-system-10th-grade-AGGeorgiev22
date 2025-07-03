@@ -10,5 +10,6 @@ public:
 
 private:
 	bool loggedUserIsAdmin = false;
+	bool userIsLogged = false;
 	int key;
 };

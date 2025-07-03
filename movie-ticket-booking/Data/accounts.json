@@ -1,16 +1,23 @@
 {
-  "1": {
-    "firstName": "Alexander",
-    "lastName": "Georgiev",
-    "email": "ag22@gmail.com",
-    "password": "Wat71337!",
-    "admin": true
-  },
-  "2": {
-    "firstName": "Sasho",
-    "lastName": "Georgiev",
-    "email": "ag222@gmail.com",
-    "password": "Wat71337!",
-    "admin": false
-  }
+    "1": {
+        "firstName": "Alexander",
+        "lastName": "Georgiev",
+        "email": "ag22@gmail.com",
+        "password": "Wat71337!",
+        "admin": true
+    },
+    "2": {
+        "firstName": "Sasho",
+        "lastName": "Georgiev",
+        "email": "ag222@gmail.com",
+        "password": "Wat71337!",
+        "admin": false
+    },
+    "3": {
+        "firstName": "Alexander",
+        "lastName": "Georg",
+        "email": "agg222@gmail.com",
+        "password": "Wat71337!",
+        "admin": false
+    }
 }

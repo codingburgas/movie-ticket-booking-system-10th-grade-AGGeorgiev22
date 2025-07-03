@@ -13,4 +13,5 @@ public:
     bool selectSeatPageShouldDisplay;
     bool bookTicketsPageShouldDisplay;
     bool addNewCinemaPageShouldDisplay;
+    bool manageMoviesPageShouldDisplay;
 };
